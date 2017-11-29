@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>OneWork</title>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/css reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+
+</head>
+<body>
+
+	<header class="header container">
+		<nav class="">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#">photoapp</a></li>
+				<li><img src="img/photo.png" alt=""></li>
+				<li><a href="#">design</a></li>
+				<li><a href="#">downoald</a></li>
+			</ul>
+		</nav>
+		<section class="home container">
+			<h1>your life, a photo</h1>
+			<p>print your life in a simple</p>
+			<a href="#start">get started</a>
+		</section>
+		<section class="network">
+			<a href="https://twitter.com"><img src="img/twitter.png" alt="twitter"></a>
+			<a href="https://www.flickr.com/"><img src="img/flickt.png" alt="flickr"></a>
+			<a href="https://dribbble.com"><img src="img/dribbble.png" alt="dribbble"></a>
+		</section>
+	</header>
+	<main class="main">
+		<section class="main_top container">
+			<div class="left_column">
+				<h2>Rappresent your life with a<br>simple photo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Veniam reprehenderit doloremque eligendi exercitationem,<br>itaque omnis qui nobis voluptatum, aut, quia eum quas maxime<br>voluptates consequuntur!</p>
+				<a href="#">get started</a>
+			</div>
+			<a name="start"></a>
+		</section>
+		<section class="main_slider container">
+			<div class="main_slider__block ">
+				<div class="slider">
+					<h2>design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus tenetur, debitis. Omnis doloremque, qui aliquid libero aperiam<br>totam atque quos ducimus minus necessitatibus minima beatae<br>eveniet distinctio! Dolorum omnis unde nam iure facere,<br>maiores dolore, recusandae sunt provident numquam<br>quasi quae reprehenderit, minus incidunt ullam.</p>
+					<a href="#">learn more</a>
+				</div>
+			</div>
+		</section>
+		<section class="xbs container">
+			<div class="slider__container">
+						<div class="left_block">
+							<img src="img/green_photo.png" class="img-responsive" alt="фото">
+							<h2>our comunity</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="slider__block">
+					
+								<div>
+									<img src="img/car.png" alt="">
+								</div>
+								<div>
+									<img src="img/priroda.png" alt="">
+								</div>
+								<div>
+									<img src="img/twitter.jpg" alt="">
+								</div>
+
+						</div>
+				</div>
+		</section>
+		<section class="main_footer container">
+			<div class="main_footer__block container">
+
+				<div class="block_input container">
+				<h2>subscribe to us community</h2>
+					
+					<form id="form" role="form">
+
+					  <div class="form-group">
+					    <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="YOUR EMAIL">
+					     <button type="submit" class="btn btn-primary"><img src="img/fa-check.png" alt=""></button>
+					  </div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer container">
+			<section class="footer_block container">
+				<h2>downoald it</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nostrum ad quis sed, vitae doloribus, accusamus<br>tempora incidunt eos aperiam, labore molestiae delectus obcaecati. Natus, iure, ut. Nihil quam fugit similique ratione, ipsa totam nobis.</p>
+				<div class="footer_block__button">
+					<a href="#" class="apple">apple store</a>
+					<a href="#" class="android">play store</a>
+				</div>
+			</section>
+	</footer>
+	<article>
+		<div class="block container">
+			<div class="left_info container">
+				<p>credits</p>
+				<p>privacy</p>
+				<p>our teams</p>
+				<div class="text">
+					<p>Copyright by phototime - all right reserved resserved</p>
+				</div>
+			</div>
+
+				<img src="img/green_photo.png" alt="photo">
+
+		</div>
+	</article>
+	</main>	
+
+
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+
+ 
+	<script src="slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('.slider__block').slick({
+
+		  	dots: false,
+			arrows: false,
+			infinite: true,
+			autoplay: true,
+			Speed: 350,
+			slidesToShow: 2,
+			slidesToScroll: 1
+
+
+		    
+		  });
+		});
+	</script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/validate.js"></script>
+
+
+		<script>
+		$('#form').validate({
+			rules: {
+				email: {
+					required: true, 
+					minlength: 2,
+					email: true
+				}
+			},
+			messages: {
+				email: {
+				required: 'Это поле обязательно',
+				minlength: 'Не менее 2 символов',
+				email: 'Введите корректный email'	
+				}
+			}
+		})
+	</script>
+	<script src="https://mssg.me/widget/akbar_hasanov" async></script>
+</body>

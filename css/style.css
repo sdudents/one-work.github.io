@@ -1,0 +1,537 @@
+@font-face {
+  font-family: Gothem;
+  src: url(../font/Gotham Rounded Bold.otf);
+  src: url(../font/GothamRounded Bold.ttf);
+  
+  /* Имя шрифта */
+  /* Путь к файлу со шрифтом */
+}
+/* line 7, style.less */
+header {
+  height: 745px;
+}
+/* line 10, style.less */
+.header {
+  width: 100%;
+  height: auto;
+  background: url(../img/bg_top.png) no-repeat;
+  /* Firefox 3.6+ */
+  /* Safari 3.1+ и Chrome 4.0+ */
+  /* Opera 9.6+ */
+  background-size: cover;
+  /* Современные браузеры */
+}
+/* line 19, style.less */
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+/* line 24, style.less */
+.header nav ul {
+  width: 1024px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 32, style.less */
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Gothem', sans-serif;
+  text-transform: uppercase;
+}
+/* line 40, style.less */
+.header .home {
+  width: 830px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  margin-top: 245px;
+}
+/* line 48, style.less */
+.header .home h1 {
+  font-size: 36px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 55, style.less */
+.header .home p {
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 6px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 62, style.less */
+.header .home a {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Gothem', sans-serif;
+  border-radius: 4px;
+  letter-spacing: 4px;
+  background-color: #16a085;
+  margin-top: 30px;
+  text-decoration: none;
+}
+/* line 78, style.less */
+.header .network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 225px;
+}
+/* line 86, style.less */
+.main {
+  width: 100%;
+  height: 490px;
+  background-color: #f5f6f7;
+}
+/* line 91, style.less */
+.main .main_top {
+  width: 1024px;
+  height: 490px;
+  margin: 0 auto;
+  background: url(../img/iphone_smart1.png) no-repeat 380px 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 100, style.less */
+.main .main_top .left_column h2 {
+  font-size: 26px;
+  color: #16a085;
+  text-transform: uppercase;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 106, style.less */
+.main .main_top .left_column p {
+  margin-top: 50px;
+  line-height: 24px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 112, style.less */
+.main .main_top .left_column a {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-radius: 4px;
+  background-color: #16a085;
+  margin-top: 50px;
+  text-decoration: none;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 127, style.less */
+.main .main_slider {
+  width: 100%;
+}
+/* line 129, style.less */
+.main .main_slider .main_slider__block {
+  width: 1024px;
+  height: 560px;
+  background: url(../img/yellow_phone.png) no-repeat 0 -220%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 138, style.less */
+.main .main_slider .main_slider__block .slider {
+  width: 450px;
+}
+/* line 140, style.less */
+.main .main_slider .main_slider__block .slider h2 {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #16a085;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 146, style.less */
+.main .main_slider .main_slider__block .slider p {
+  margin-top: 50px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 150, style.less */
+.main .main_slider .main_slider__block .slider a {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #16a085;
+  margin-top: 50px;
+  text-decoration: none;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 168, style.less */
+.main .xbs {
+  background: #f5f6f7;
+  width: 100%;
+  height: 484px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 175, style.less */
+.main .xbs .slider__container {
+  width: 1024px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 181, style.less */
+.main .xbs .slider__container .left_block img {
+  margin: 0 auto;
+}
+/* line 186, style.less */
+.main .xbs .slider__container .left_block h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 193, style.less */
+.main .xbs .slider__container .left_block p {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 199, style.less */
+.main .xbs .slider__container .slider__block {
+  max-width: 768px;
+  position: relative;
+  width: 100%;
+}
+/* line 208, style.less */
+.main .main_footer {
+  width: 100%;
+  height: 790px;
+  background: url(../img/bg_footer.png) no-repeat;
+  /* Firefox 3.6+ */
+  /* Safari 3.1+ и Chrome 4.0+ */
+  /* Opera 9.6+ */
+  background-size: cover;
+  /* Современные браузеры */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 221, style.less */
+.main .main_footer .main_footer__block h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 228, style.less */
+.main .main_footer .main_footer__block form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 232, style.less */
+.main .main_footer .main_footer__block form .form-group {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 237, style.less */
+.main .main_footer .main_footer__block form .form-group input[type="email"] {
+  width: 280px;
+  height: 60px;
+  border-radius: 4px 0px 0px 4px;
+}
+/* line 243, style.less */
+.main .main_footer .main_footer__block form .form-group button[type="submit"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px;
+}
+/* line 251, style.less */
+.main .main_footer .main_footer__block form .form-group button[type="submit"] > img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+/* line 266, style.less */
+.error {
+  border: solid red 1px;
+}
+/* line 269, style.less */
+label.error {
+  position: absolute;
+  border: none;
+  color: #fff;
+  margin-top: 50px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 276, style.less */
+.footer {
+  width: 100%;
+  height: 400px;
+  bottom: 0;
+  background-color: #f5f6f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 284, style.less */
+.footer .footer_block {
+  width: 1024px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 291, style.less */
+.footer .footer_block h2 {
+  text-transform: uppercase;
+  color: ;
+  font-size: 20px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 297, style.less */
+.footer .footer_block p {
+  line-height: 24px;
+  font-size: ;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 304, style.less */
+.footer .footer_block .footer_block__button {
+  margin-top: 50px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 310, style.less */
+.footer .footer_block .footer_block__button .apple {
+  width: 290px;
+  background-color: #1abc9c;
+  border: #1abc9c;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 324, style.less */
+.footer .footer_block .footer_block__button .android {
+  width: 290px;
+  background-color: #1abc9c;
+  border: #1abc9c;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 339, style.less */
+.footer .footer_block .footer_block__button .apple::after {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(../img/apple.png) no-repeat center #16a085;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 60px;
+  height: 60px;
+  left: 28px;
+  margin-left: 68px;
+  position: relative;
+}
+/* line 353, style.less */
+.footer .footer_block .footer_block__button .android::after {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(../img/android.png) no-repeat center #16a085;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 60px;
+  height: 60px;
+  left: 33px;
+  margin-left: 68px;
+  position: relative;
+}
+/* line 371, style.less */
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 130px;
+  background-color: #fff;
+}
+/* line 378, style.less */
+article .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1024px;
+  margin: 0 auto;
+}
+/* line 385, style.less */
+article .block .left_info .text {
+  display: block;
+  margin-top: 30px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 391, style.less */
+article .block .left_info p {
+  display: inline-block;
+  border-right: solid 2px #16a085;
+  padding-right: 10px;
+  font-size: 14px;
+  font-family: 'Gothem', sans-serif;
+}
+/* line 398, style.less */
+article .block .left_info p:nth-child(3) {
+  border: none;
+}
+/* line 401, style.less */
+article .block .left_info p:last-child {
+  border: none;
+  padding-right: 0;
+}
