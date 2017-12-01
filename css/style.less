@@ -163,16 +163,17 @@ header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border: solid red;
+
 		.slider__container {
-				width: 1024px;
 				display: flex;
 				align-items: center;
-				border: solid green;
-				justify-content: center;
+				justify-content: space-between;
+
+
 				 	.left_block {
-				 		width:;
-				 		border: solid space;
+						width: 250px;
+
+
 				 		img {
 				 			margin: 0 auto;
 				 		}
@@ -193,16 +194,15 @@ header {
 					.slider__block {
 					max-width: 768px;
 					position: relative;
-					border: solid red;
 
-					
+
 					div img {
 					outline: none;
 					margin-left: 10px;
 					cursor: pointer;
 					}
 					div img:first-child {
-						margin-left: 0;
+;						
 					}
 				}
 			}
@@ -428,26 +428,25 @@ article {
 }
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 769px) { 
-	article {
-		border: solid green;
-		.block {
-			border: solid yellow;
-			width: ;
-			.left_info {
-				border: solid red;
+@media (max-width: 768px) { 
 
-			}
-			.img {
-				border: solid grey;
-			}
-		}
-	}
 
 }
  
 /* Landscape phones and down */
-@media (max-width: 460px) { 
+@media (max-width: 570px) { 
+	.main_slider {
+		border: solid green;
+		.main_slider__block {
+			border: solid yellow;
+
+			background-color: red;
+			.slider {
+				border: solid red;
+				background-color: #fff;
+			}
+		}
+	}
 
 	.main_footer {
 		.main_footer__block {
