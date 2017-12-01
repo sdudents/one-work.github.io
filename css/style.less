@@ -282,7 +282,7 @@ label.error {
 	height: 400px;
 	bottom: 0;
 	background-color: #f5f6f7;
-	border: solid green;
+
 	display: flex;
 	justify-content: center;
 
@@ -293,7 +293,7 @@ label.error {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		border: red solid; 
+
 
 			h2 {
 				text-transform: uppercase;
@@ -313,11 +313,10 @@ label.error {
 
 		.footer_block__button {
 			margin-top: 50px;
-			width: 600px;
+			max-width: 300;
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			align-items: center;
-			border: solid red;
 			.apple{
 				width: 290px;
 				background-color: #1abc9c;
@@ -429,29 +428,58 @@ article {
 }
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
+@media (max-width: 769px) { 
+	article {
+		border: solid green;
+		.block {
+			border: solid yellow;
+			width: ;
+			.left_info {
+				border: solid red;
 
+			}
+			.img {
+				border: solid grey;
+			}
+		}
+	}
 
 }
  
 /* Landscape phones and down */
-@media (max-width: 360px) { 
+@media (max-width: 460px) { 
 
 	.main_footer {
-
 		.main_footer__block {
-
 			width: 100%;
 			form {
-
 				width: 100%;
 				.form-group {
-
 					width: 300px;
-
 				}
 			}
 
+		}
+	}
+	.footer {
+
+		height: 500px;
+
+			.footer_block {
+				p {
+					text-align: justify;
+				}
+				margin: 20px;
+
+				.footer_block__button {
+
+					display: flex;
+					flex-direction: column;
+					#android {
+						margin-top: 20px;
+					}
+
+				}
 		}
 	}
 
