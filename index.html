@@ -2,32 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>OneWork</title>
-	<link rel="stylesheet" href="css/animate.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/css reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
-
 </head>
 <body>
 	<header class="header container">
-		<nav class="">
-			<ul>
-				<li><a href="#">home</a></li>
-				<li><a href="#">photoapp</a></li>
-				<li><img src="img/photo.png" alt=""></li>
-				<li><a href="#">design</a></li>
-				<li><a href="#">downoald</a></li>
-			</ul>
-		</nav>
-		<section class="home container">
-			<h1>your life, a photo</h1>
-			<p>print your life in a simple</p>
-			<a href="#start">get started</a>
+			<nav>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">photoapp</a></li>
+					<li><img src="img/photo.png" alt=""></li>
+					<li><a href="#">design</a></li>
+					<li><a href="#">downoald</a></li>
+				</ul>
+			</nav>
+		<section class="home container-fluid">
+				<h1>your life, a photo</h1>
+				<p>print your life in a simple</p>
+				<a href="#start">get started</a>
 		</section>
 		<section class="network">
 			<a href="https://twitter.com"><img src="img/twitter.png" alt="twitter"></a>
@@ -45,7 +45,7 @@
 			<a name="start"></a>
 		</section>
 		<section class="main_slider container">
-			<div class="main_slider__block ">
+			<div class="main_slider__block  container">
 				<div class="slider">
 					<h2>design</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus tenetur, debitis. Omnis doloremque, qui aliquid libero aperiam<br>totam atque quos ducimus minus necessitatibus minima beatae<br>eveniet distinctio! Dolorum omnis unde nam iure facere,<br>maiores dolore, recusandae sunt provident numquam<br>quasi quae reprehenderit, minus incidunt ullam.</p>
@@ -53,8 +53,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="xbs container">
-			<div class="slider__container">
+		<section class="xbs container-fluid">
+			<div class="slider__container container">
+			
 						<div class="left_block">
 							<img src="img/green_photo.png" class="img-responsive" alt="фото">
 							<h2>our comunity</h2>
@@ -69,16 +70,19 @@
 									<img src="img/priroda.png" alt="">
 								</div>
 								<div>
-									<img src="img/twitter.jpg" alt="">
+									<a href="https://twitter.com/RESPUBLICA24"><img src="img/twitter.jpg" alt=""></a>
 								</div>
 
 						</div>
-				</div>
-		</section>
-		<section class="main_footer container">
-			<div class="main_footer__block container">
 
-				<div class="block_input container">
+			</div>
+
+				
+		</section>
+		<section class="main_footer">
+			<div class="main_footer__block">
+
+				<div class="block_input ">
 				<h2>subscribe to us community</h2>
 
 					<form id="form" role="form">
@@ -91,13 +95,17 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer container">
-			<section class="footer_block container">
+		
+	</main>
+	<footer class="footer container-fluid">
+			<section class="footer_block ">
 				<h2>downoald it</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nostrum ad quis sed, vitae doloribus, accusamus<br>tempora incidunt eos aperiam, labore molestiae delectus obcaecati. Natus, iure, ut. Nihil quam fugit similique ratione, ipsa totam nobis.</p>
 				<div class="footer_block__button">
-					<a href="#" class="apple">apple store</a>
-					<a href="#" class="android">play store</a>
+					<div class="col-xs-12 col-sm-8 col-md-8"><a href="#" class="apple">apple store</a></div>
+					<div class="col-xs-12 col-sm-8 col-md-8"><a href="#" class="android">play store</a></div>
+
+					
 				</div>
 			</section>
 	</footer>
@@ -111,12 +119,10 @@
 					<p>Copyright by phototime - all right reserved resserved</p>
 				</div>
 			</div>
-
+			<div>
 				<img src="img/green_photo.png" alt="photo">
-
-		</div>
+			</div>
 	</article>
-	</main>
 
 
 
