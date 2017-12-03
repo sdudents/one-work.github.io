@@ -15,7 +15,35 @@ header {
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: cover; /* Современные браузеры */	
-	nav {
+	.navbar {
+		background: none;
+		border: red;
+		 .container {
+		 	border: solid red;
+
+		 	.collapse {
+
+		 		div {
+		 			border: solid green;
+					width: 60px;
+
+		 		}
+
+				ul a {
+					color: #fff;
+					border: solid #fff;
+					width: 100px;
+				}
+		 	}
+
+		 }
+	}
+
+
+
+
+
+	/*nav {
 
 		display: flex;
 		justify-content: center;
@@ -35,7 +63,7 @@ header {
 			font-family: 'Gothem', sans-serif;
 			text-transform: uppercase;
 		}
-		}
+		}*/
 
 	.home {
 
@@ -121,7 +149,7 @@ header {
 		background: #fff;
 		.main_slider__block {
 			height: 560px;
-			background: url(../img/yellow_phone.png) no-repeat 0 -220%;
+			background: url(../img/yellow_phone.png) 0 130px no-repeat;
 			display: flex;
 			flex-direction: row-reverse;
 			align-content: center;
@@ -437,13 +465,14 @@ article {
 @media (max-width: 570px) { 
 	.main_slider {
 		border: solid green;
-		.main_slider__block {
-			border: solid yellow;
 
-			background-color: red;
+		.main_slider__block {
+			border: solid black;
+			background: red;
+
+			
 			.slider {
-				border: solid red;
-				background-color: #fff;
+				display: none;
 			}
 		}
 	}
