@@ -5,10 +5,7 @@
 	<title>OneWork</title>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
@@ -16,7 +13,7 @@
 <body>
 	<header class="header container">
 			<div class="row">
-				<nav class="navbar navbar-default " role="navigation">
+				<nav class="navbar navbar-inverse " role="navigation">
 					<div class="container">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsev_menu">
@@ -27,30 +24,17 @@
 							</button>
 						</div>
 						<div class="collapse navbar-collapse" id="responsev_menu">
-							<ul class="nav nav-pills ">
-								<li><a href="#">пункт1</a></li>
-								<li><a href="#">пункт2</a></li>
-
+							<ul class="nav nav-pills">
+								<li><a href="#home">home</a></li>
+								<li><a href="#photoapp">photoapp</a></li>
 								<li><img src="img/photo.png" alt=""></li>
-							
-								<li><a href="#">punkt</a></li>
-								<li><a href="#">punkt</a></li>
+								<li><a href="#design">design</a></li>
+								<li><a href="#downoald">downoald</a></li>
 							</ul>
 						</div>
 					</div>
-					
 				</nav>
 			</div>
-
-			<!--<nav>
-				<ul>
-					<li><a href="#">home</a></li>
-					<li><a href="#">photoapp</a></li>
-					<li><img src="img/photo.png" alt=""></li>
-					<li><a href="#">design</a></li>
-					<li><a href="#">downoald</a></li>
-				</ul>*/
-			</nav>-->
 		<section class="home container-fluid">
 				<h1>your life, a photo</h1>
 				<p>print your life in a simple</p>
@@ -71,8 +55,8 @@
 			</div>
 			<a name="start"></a>
 		</section>
-		<section class="main_slider container">
-			<div class="main_slider__block  container ">
+		<section class="main_slider container" id="design">
+			<div class="main_slider__block  container hidden-xs hidden-sm">
 				<div class="slider">
 					<h2>design</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus tenetur, debitis. Omnis doloremque, qui aliquid libero aperiam<br>totam atque quos ducimus minus necessitatibus minima beatae<br>eveniet distinctio! Dolorum omnis unde nam iure facere,<br>maiores dolore, recusandae sunt provident numquam<br>quasi quae reprehenderit, minus incidunt ullam.</p>
@@ -101,9 +85,9 @@
 						</div>
 			</div>
 		</section>
-		<section class="main_footer">
+		<section class="main_footer" id="photoapp">
 			<div class="main_footer__block">
-				<div class="block_input ">
+				<div class="block_input">
 				<h2>subscribe to us community</h2>
 					<form id="form" role="form">
 					  <div class="form-group">
@@ -119,7 +103,7 @@
 			<section class="footer_block conteinter">
 				<h2>downoald it</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nostrum ad quis sed, vitae doloribus, accusamus<br>tempora incidunt eos aperiam, labore molestiae delectus obcaecati. Natus, iure, ut. Nihil quam fugit similique ratione, ipsa totam nobis.</p>
-				<div class="footer_block__button ">
+				<div class="footer_block__button" id="downoald">
 					<div class="col-xs-12 col-sm-8 col-md-8" id="apple"><a href="#" class="apple">apple store</a></div>
 					<div class="col-xs-12 col-sm-8 col-md-8" id="android"><a href="#" class="android">play store</a></div>
 				</div>
